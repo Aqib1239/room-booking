@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+
+.userheader-base{
+    background: linear-gradient(to right,rgb(248, 225, 225),rgb(248, 198, 189));
+    padding: 10px 0;
+
+}
+
+.userheader-topic{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.userheader-menu{
+    text-align: right;
+    font: 2 px;
+    font-weight: bold;
+}
+
+.userheader-menu a{
+    text-decoration: none;
+    padding: 3px 16px;
+    transition: all .5s;
+}
+
+.userheader-menu a:hover{
+    background-color: rgb(194, 192, 192);
+    box-shadow: 0 2px 4px 4px rgb(186, 184, 184);
+    cursor: pointer;
+}

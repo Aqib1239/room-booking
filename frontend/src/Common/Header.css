@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+
+.header-base{
+    background: linear-gradient(to right,rgb(187, 185, 185),rgb(171, 224, 245));
+    padding: 10px 0;
+
+}
+
+.header-topic{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.header-menu{
+    text-align: right;
+    font: 2 px;
+    font-weight: bold;
+}
+
+.header-menu a{
+    text-decoration: none;
+    padding: 3px 16px;
+    transition: all .5s;
+}
+
+.header-menu a:hover{
+    background-color: rgb(194, 192, 192);
+    box-shadow: 0 2px 4px 4px rgb(186, 184, 184);
+    cursor: pointer;
+}

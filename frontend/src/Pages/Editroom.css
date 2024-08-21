@@ -1,0 +1,33 @@
+.editroom-base{
+    background-image: url(https://img.freepik.com/premium-photo/minimalist-empty-room-with-white-wall-green-plant-3d-rendering_308721-250.jpg?w=2000);
+    background-size: 100% 100%;
+}
+
+.editroom-main{
+    text-align: center;
+    margin: 50px 0;
+    background: rgba(157, 132, 181, 0.589);
+    padding: 20px 0;
+    border-radius: 8px;
+}
+
+.editroom-input{
+    display: block;
+    margin: auto;
+    width: 70%;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-bottom: 8px;
+}
+
+.editroom-main button{
+    padding: 5px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.655);
+    color: white;
+}

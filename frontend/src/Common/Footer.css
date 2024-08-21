@@ -1,0 +1,60 @@
+.sidebarmain{
+    padding: 10px 30px 10px 30px;
+}
+.footercontent{
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: Copperplate Gothic;
+    word-spacing: 5px;
+}
+.footeraddress{
+    font-style: italic;
+    font-size: 15px;
+    font-family: Copperplate Gothic;
+}
+.footeraddressheading{
+    font-family: Copperplate Gothic;
+    font-weight: bold;	
+    color: orange;
+}
+.footericon{
+    font-size: 25px;
+}
+.footersocialicon{
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: left;
+    width: 170px;
+    padding-left: 20px;
+    font-family: Copperplate Gothic;
+    border: 1px solid blue;
+}
+.footersocialicongreen{
+    border: 1.5px solid green;	
+}
+
+.footersocialiconred{
+    border: 1.5px solid red;	
+}
+.footersocialiconred:hover{
+    background-color: red;	
+    border: 1.5px solid red;	
+}
+
+.footercenterline1{border-right: 2px solid white;}
+.footercenterline2{border-right: 2px solid white;}
+@media screen and (max-width: 769px){
+    .footercenterline1{border-right: 0px solid white;}
+    .footercenterline2{border-right: 0px solid white;}
+    .footersocialiconred{
+        width: 80%;
+        text-align: center;	
+    }
+}
+
+@media screen and (max-width: 450px){
+    .footersocialiconred{
+        width: 50%;
+        text-align: center;	
+    }
+}

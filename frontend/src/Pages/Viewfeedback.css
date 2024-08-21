@@ -1,0 +1,22 @@
+.viewfeedback-base{
+    background-image: url(https://images.pexels.com/photos/355948/pexels-photo-355948.jpeg?cs=srgb&dl=pexels-pixabay-355948.jpg&fm=jpg);
+    background-size: 100% 100%;
+}
+
+.viewfeedback-main{
+    margin: 50px 0;
+    background-color: rgba(208, 229, 247, 0.877);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.viewfeedback-main table tr td{
+    padding: 8px;
+}
+
+.viewbooking-search{
+    font-size: 20px;
+    padding: 5px 15px;
+    width: 60%;
+    margin-top: 20px;
+}

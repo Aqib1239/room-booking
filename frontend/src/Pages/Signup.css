@@ -1,0 +1,39 @@
+.signup-main{
+    background-image: url(https://img.rawpixel.com/private/static/images/website/2022-11/rm405-c04b-mockup.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=35ca092fcc178014cab3a8f370474a39);
+    background-size: 100% 100%;
+}
+
+.signup-body{
+    background-color: rgba(226, 252, 243, 0.74);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.signup-input{
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 7px;
+    font-size: 25px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(80, 244, 186);
+    color: rgb(7, 158, 108);
+}
+
+.signup-button{
+    font-size: 25px;
+    background-color: rgb(58, 247, 181);
+    color: rgb(25, 85, 64);
+    margin-left: 40%;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.signup-contact{
+    -wedkit-appearance: none;
+
+}
+

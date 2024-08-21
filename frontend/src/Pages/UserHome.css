@@ -1,0 +1,48 @@
+.home-base1{
+    background-image: url('https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+    background-size: 100% 100%;
+    padding: 60px 60px 60px 60px;
+    display: flex;
+}
+
+.home-content1{
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 5px 5px white;
+    padding: 20px 60px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 8px;
+    margin: 0 50px;
+    background: rgba(128, 128, 128, 0.653);
+}
+
+.home-image1{
+    border-radius: 8px;
+    height: 390px;
+    width: 60%;
+    animation: demo1 8s alternate linear infinite;
+}
+
+@keyframes demo1{
+    0%{
+        background-image: url(https://w0.peakpx.com/wallpaper/683/262/HD-wallpaper-hotel-booking-online-reservation-mobile-application-for-renting-3050891-vector-art-at-vecteezy.jpg);
+        background-size: 100% 100%;
+        box-shadow: 0 0 5px 3px white;
+    }
+    33%{
+        background-image: url(https://previews.123rf.com/images/279photo/279photo1705/279photo170502050/78407559-booking-form-for-hotel-room-reservation-stone-background-top-view-space-for-text.jpg);
+        background-size: 100% 100%;
+    }
+    66%{
+        background-image: url(https://media.istockphoto.com/id/512882668/photo/entering-hotel-room.jpg?s=612x612&w=0&k=20&c=dkStriVIj-19NVWg1AgHdBAtRGndus-sQJiZdo5N6ss=);
+        background-size: 100% 100%;
+    }
+    100%{
+        background-image: url(https://media.istockphoto.com/id/1336116827/photo/suitcase-delivered-standing-in-hotel-room-concept-of-hotel-service-and-travel.webp?b=1&s=170667a&w=0&k=20&c=lJ34zMgK_rOtN-ci6-UbuzcpspxL8ucs8s-GFl0OFi4=);
+        background-size: 100% 100%;
+        box-shadow: 0 0 5px 8px white;
+    }
+}

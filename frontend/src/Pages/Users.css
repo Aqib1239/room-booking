@@ -1,0 +1,21 @@
+.users-base{
+    background-image: url(https://cdn.wallpapersafari.com/44/99/VufyFU.jpg);
+    background-size: 100% 100%;
+}
+
+.user-data{
+    font-size: 40px;
+    font-weight: bold;
+    background: red;
+}
+
+.users-main{
+    margin: 50px 0;
+    background-color: rgba(208, 229, 247, 0.877);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.users-main table tr td{
+    padding: 8px;
+}

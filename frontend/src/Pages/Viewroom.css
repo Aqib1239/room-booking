@@ -1,0 +1,28 @@
+.viewroom-base{
+    background-image: url(https://img-new.cgtrader.com/items/8638/8799e976e4/photorealistic-room-3d-model-c4d.png);
+    background-size: 100% 100%;
+}
+
+.viewroom-main{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px 10px;
+}
+
+.viewroom-main tr{
+    text-align: left;
+}
+
+.room-img{
+    width: 100%;
+    height: 160px;
+}
+
+.rooms-search{
+    display: block;
+    font-size: 20px;
+    padding: 5px 15px;
+    width: 60%;
+    margin-top: 20px;
+}

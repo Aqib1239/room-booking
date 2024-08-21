@@ -1,0 +1,27 @@
+.home-base{
+    background-image: url("https://c.ndtvimg.com/2021-10/kvr6clvo_home-decor-650_625x300_15_October_21.jpg?im=Resize=(1200,757)");
+    background-size: 100% 100%;
+}
+
+.home-content{
+    margin: 50px 0;
+    border: 3px solid black;
+    padding: 20px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 5px 5px rgb(151, 149, 149);
+    border-radius: 10px;
+    background-color: rgba(211, 211, 211, 0.603);
+    animation: demo 2s linear infinite alternate;
+}
+
+@keyframes demo{
+    0%{
+        transform: rotate(-5deg);
+    }
+    100%{
+        transform: rotate(5deg);
+    }
+}

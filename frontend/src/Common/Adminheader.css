@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+
+.adminheader-base{
+    background: linear-gradient(to right,rgb(225, 248, 234),rgb(229, 189, 248));
+    padding: 10px 0;
+
+}
+
+.adminheader-topic{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.adminheader-menu{
+    text-align: right;
+    font: 2 px;
+    font-weight: bold;
+}
+
+.adminheader-menu a{
+    text-decoration: none;
+    padding: 3px 16px;
+    transition: all .5s;
+}
+
+.adminheader-menu a:hover{
+    background-color: rgb(194, 192, 192);
+    box-shadow: 0 2px 4px 4px rgb(186, 184, 184);
+    cursor: pointer;
+}

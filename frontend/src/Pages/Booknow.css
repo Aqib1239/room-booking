@@ -1,0 +1,37 @@
+.booknow-base{
+    background-image: url(https://cdn.wallpapersafari.com/55/73/ghY4rc.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.booknow-main{
+    border: 3px solid white;
+    margin: 50px 0;
+    padding: 10px 10px 30px 10px;
+    border-radius: 8px;
+    background: rgba(23, 23, 23, 0.322);
+}
+
+.booknow-main h2{
+    color: white;
+    text-decoration: underline;
+}
+
+.booknow-main input{
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    padding: 4px 15px;
+    width: 80%;
+    margin-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.booknow-main select{
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    padding: 4px 15px;
+    width: 80%;
+    margin-bottom: 5px;
+}
