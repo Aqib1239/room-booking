@@ -21,7 +21,7 @@ const Addroom = () =>{
     }
     let addroom =async () =>{
         console.log(rno,price,type,status,image);
-        let result = await fetch(`http://localhost:4500/addroom`, {
+        let result = await fetch(`https://room-booking-api-umber.vercel.app/addroom`, {
             method: 'post',
             corssDomain:true,
             body: JSON.stringify({ rno,price,image,type,status }),
