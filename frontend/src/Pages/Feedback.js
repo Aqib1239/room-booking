@@ -12,7 +12,7 @@ const Feedback = () => {
     let [feedback, setFeedback] = useState("");
 
     let submitfeedback = async () => {
-        let result = await fetch(`http://localhost:4500/feedback`, {
+        let result = await fetch(`https://room-booking-api-umber.vercel.app/feedback`, {
             method: 'post',
             body: JSON.stringify({ name, email, contact, feedback }),
             headers: {
