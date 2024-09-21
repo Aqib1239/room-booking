@@ -7,7 +7,7 @@ import './Users.css';
 const Users = () => {
     let [data, setData] = useState([]);
     let users = async () => {
-        let result = await fetch(`http://localhost:4500/viewusers`);
+        let result = await fetch(`https://room-booking-api-umber.vercel.app/viewusers`);
         result = await result.json();
         setData(result);
     }
@@ -16,7 +16,7 @@ const Users = () => {
     }, []);
 
     let deluser =async (id) =>{
-        let result = await fetch(`http://localhost:4500/deleteuser/${id}`,{
+        let result = await fetch(`https://room-booking-api-umber.vercel.app/deleteuser/${id}`,{
             method:'delete'
         });
         result = result.json();
