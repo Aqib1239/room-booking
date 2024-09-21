@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Rooms = () => {
     let [room, setRoom] = useState([]);
     let roomdata = async () => {
-        let data = await fetch(`http://localhost:4500/getroom`);
+        let data = await fetch(`https://room-booking-api-umber.vercel.app/getroom`);
         data = await data.json();
         setRoom(data);
     }
@@ -18,7 +18,7 @@ const Rooms = () => {
     const searchroom = async (e) => {
         let key = e.target.value;
         if (key) {
-            let result = await fetch(`http://localhost:4500/searchroom/${key}`);
+            let result = await fetch(`https://room-booking-api-umber.vercel.app/searchroom/${key}`);
             result = await result.json();
             if (result) {
                 setRoom(result);
