@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Viewroom = () => {
     let [room, setRoom] = useState([]);
     let roomdata = async () => {
-        let data = await fetch(`http://localhost:4500/getroom`);
+        let data = await fetch(`https://room-booking-api-umber.vercel.app/getroom`);
         data = await data.json();
         setRoom(data);
     }
@@ -16,7 +16,7 @@ const Viewroom = () => {
     });
 
     let deleteroom =async (id) =>{
-        let result = await fetch(`http://localhost:4500/deleteroom/${id}`,{
+        let result = await fetch(`https://room-booking-api-umber.vercel.app/deleteroom/${id}`,{
             method:'delete'
         });
         result = result.json();
