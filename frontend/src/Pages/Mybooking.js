@@ -10,7 +10,7 @@ const Mybooking = () => {
     let email = user.email;
 
     let bookingdata = async () => {
-        let result = await fetch(`http://localhost:4500/userbooking/${email}`);
+        let result = await fetch(`https://room-booking-api-umber.vercel.app/userbooking/${email}`);
         result = await result.json();
         setData(result);
     }
