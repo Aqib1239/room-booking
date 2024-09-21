@@ -10,7 +10,7 @@ const Login = () => {
     let [password, setPassword] = useState("");
     let login = async () => {
         try {
-            let result = await fetch(`https://room-booking-api-umber.vercel.app//login`, {
+            let result = await fetch(`https://room-booking-api-umber.vercel.app/login`, {
                 method: 'post',
                 body: JSON.stringify({ email, password }),
                 headers: {
