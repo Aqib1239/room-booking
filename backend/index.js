@@ -5,7 +5,7 @@ mongoose.connect("mongodb+srv://maxsteel9911:hxuDA4cIYry4FXMO@cluster0.fa4as.mon
 const cors = require('cors');
 app.use(cors(
     {
-        origin: ["https://room-booking-frontend.vercel.app/"],
+        origin: ["https://room-booking-frontend.vercel.app"],
         methods: ["POST", "GET"],
         credentials: true
     }
