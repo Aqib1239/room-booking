@@ -3,7 +3,13 @@ const app = express();
 const mongoose = require('mongoose');
 mongoose.connect("mongodb+srv://maxsteel9911:hxuDA4cIYry4FXMO@cluster0.fa4as.mongodb.net/room-booking?retryWrites=true&w=majority&appName=Cluster0");
 const cors = require('cors');
-app.use(cors());
+app.use(cors(
+    {
+        origin: ["https://room-booking-frontend.vercel.app/"],
+        methods: ["POST", "GET"],
+        credentials: true
+    }
+));
 let user = require('./user');
 let feedback = require('./feedback');
 let admin = require('./admin');
