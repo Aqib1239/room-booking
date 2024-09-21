@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div>
             <div className="container-fluid">
-                <div className="row bg-dark text-light hidden justify-content-around sidebarmain">
+                <div className="row bg-dark text-light justify-content-around sidebarmain">
                     <div className="col-md-4 footercenterline1">
                         
                             <p className="footercontent">Analyze Infotech is a rapidly growing IT software company specialising in software technologies of recent trends such as MERN, Java, .Net, Android, PHP, Web Designing, WordPress, Joomla, and Search Engine Optimization & Social Media Marketing.</p>
