@@ -7,7 +7,7 @@ import './Viewfeedback.css';
 const Viewfeedback = () => {
     let [data, setData] = useState([]);
     let feedbackdata = async () => {
-        let result = await fetch(`http://localhost:4500/viewfeedback`);
+        let result = await fetch(`https://room-booking-api-umber.vercel.app/viewfeedback`);
         result = await result.json();
         setData(result);
         console.log(result);
@@ -17,7 +17,7 @@ const Viewfeedback = () => {
     }, []);
 
     let delfeedback =async (id) =>{
-        let result = await fetch(`http://localhost:4500/deletefeedback/${id}`,{
+        let result = await fetch(`https://room-booking-api-umber.vercel.app/deletefeedback/${id}`,{
             method:'delete'
         });
         result = result.json();
