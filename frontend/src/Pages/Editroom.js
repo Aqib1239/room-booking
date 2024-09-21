@@ -17,7 +17,7 @@ const Editroom = () =>{
         editRoom();
     },[]);
     let editRoom = async () =>{
-        let result = await fetch(`http://localhost:4500/editroom/${params.id}`);
+        let result = await fetch(`https://room-booking-api-umber.vercel.app/editroom/${params.id}`);
         result = await result.json();
         setRno(result.rno);
         setPrice(result.price);
@@ -34,7 +34,7 @@ const Editroom = () =>{
         };
     }
     let updateroom =async () =>{
-        let result = await fetch(`http://localhost:4500/updateroom/${params.id}`, {
+        let result = await fetch(`https://room-booking-api-umber.vercel.app/updateroom/${params.id}`, {
             method: 'put',
             corssDomain:true,
             body: JSON.stringify({ rno,price,image,type,status }),
