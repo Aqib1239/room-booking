@@ -16,7 +16,7 @@ const Signup = () =>{
     let register = async (e) =>{
         e.preventDefault();
         console.log(name,email,contact,gender,password,address);
-        let result = await fetch(`https://room-booking-api-umber.vercel.app//signup`,{
+        let result = await fetch(`https://room-booking-api-umber.vercel.app/signup`,{
             method:'post',
             body: JSON.stringify({name,email,contact,gender,password,address}),
             headers:{
