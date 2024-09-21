@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-mongoose.connect("mongodb://127.0.0.1:27017/Room-booking");
+mongoose.connect("mongodb+srv://maxsteel9911:hxuDA4cIYry4FXMO@cluster0.fa4as.mongodb.net/room-booking?retryWrites=true&w=majority&appName=Cluster0");
 const cors = require('cors');
 app.use(cors());
 let user = require('./user');
@@ -15,7 +15,9 @@ app.use(bodyParser.json({limit:'50mb'}));
 app.use(bodyParser.urlencoded({limit: '50mb', extended:true}));
 app.use(express.json());
 
-
+app.get('/', async(req, res) => {
+    res.json("Hello");
+})
 app.post('/signup',async (req,res)=>{
     let result = new user(req.body);
     let data = await result.save();
