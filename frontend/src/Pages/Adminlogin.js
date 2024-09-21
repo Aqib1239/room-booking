@@ -10,7 +10,7 @@ const Adminlogin = () => {
     let [password,setPassword] = useState("");
     let login = async () =>{
         try{
-            let result = await fetch(`http://localhost:4500/adminlogin`,{
+            let result = await fetch(`https://room-booking-api-umber.vercel.app/adminlogin`,{
             method:'post',
             body: JSON.stringify({username,password}),
             headers:{
