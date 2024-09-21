@@ -5,10 +5,10 @@ mongoose.connect("mongodb+srv://maxsteel9911:hxuDA4cIYry4FXMO@cluster0.fa4as.mon
 const cors = require('cors');
 app.use(cors(
     {
-        origin: ["https://room-booking-frontend.vercel.app"],
-        methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+        origin: 'https://room-booking-frontend.vercel.app', // Your frontend URL
+        methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allowed HTTP methods
+        allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
         credentials: true,
-        optionsSuccessStatus: 204
     }
 ));
 let user = require('./user');
