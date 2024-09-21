@@ -9,7 +9,7 @@ const Viewbooking = () => {
     let [data, setData] = useState([]);
 
     let bookingdata = async () => {
-        let result = await fetch(`http://localhost:4500/bookings`);
+        let result = await fetch(`https://room-booking-api-umber.vercel.app/bookings`);
         result = await result.json();
         setData(result);
     }
@@ -19,7 +19,7 @@ const Viewbooking = () => {
 
     let delbooking = async (id) => {
         if (window.confirm("Are you sure?")) {
-            let result = await fetch(`http://localhost:4500/deletebooking/${id}`, {
+            let result = await fetch(`https://room-booking-api-umber.vercel.app/deletebooking/${id}`, {
                 method: 'delete'
             });
             result = result.json();
@@ -31,7 +31,7 @@ const Viewbooking = () => {
     const searchbooking = async (e) => {
         let key = e.target.value;
         if (key) {
-            let result = await fetch(`http://localhost:4500/searchbooking/${key}`);
+            let result = await fetch(`https://room-booking-api-umber.vercel.app/searchbooking/${key}`);
             result = await result.json();
             if (result) {
                 setData(result);
