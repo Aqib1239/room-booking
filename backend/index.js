@@ -6,8 +6,9 @@ const cors = require('cors');
 app.use(cors(
     {
         origin: ["https://room-booking-frontend.vercel.app"],
-        methods: ["POST", "GET"],
-        credentials: true
+        methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+        credentials: true,
+        optionsSuccessStatus: 204
     }
 ));
 let user = require('./user');
