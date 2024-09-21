@@ -18,7 +18,7 @@ const Booknow = () =>{
     let user = JSON.parse(localStorage.getItem('user'));
 
     let bookingdata = async () =>{
-        let result = await fetch(`http://localhost:4500/editroom/${params.id}`);
+        let result = await fetch(`https://room-booking-api-umber.vercel.app/editroom/${params.id}`);
         result = await result.json();
         setRoomno(result.rno);
         setPrice(result.price);
@@ -33,7 +33,7 @@ const Booknow = () =>{
     let bookroom = async (e) =>{
         e.preventDefault();
         price = price*duration;
-        let result = await fetch(`http://localhost:4500/booking`,{
+        let result = await fetch(`https://room-booking-api-umber.vercel.app/booking`,{
             method:'post',
             body: JSON.stringify({name,email,contact,roomno,price,duration,type,bookingdate,status}),
             headers:{
